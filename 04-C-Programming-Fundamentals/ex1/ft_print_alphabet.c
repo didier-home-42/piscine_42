@@ -14,10 +14,10 @@
 
 void	ft_print_alphabet(void)
 {
-	write(1, "abcdefghijklmopqrstuvwxyz\n", 27);
+	write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 }
 
-/* === Test === 
+/* === Test ===
 
 char	main(void)
 {
