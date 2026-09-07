@@ -6,7 +6,7 @@
 /*   By: manager <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/06 04:58:39 by manager           #+#    #+#             */
-/*   Updated: 2026/09/07 11:02:42 by manager          ###   ########.fr       */
+/*   Updated: 2026/09/07 11:16:29 by manager          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb / 10);
 	ft_putchar(nb % 10 + '0');
 }
-
+/*
 int	main(void)
 {
 	/* Résultat overflow qui a le même comportement que INT_MIN */
@@ -46,4 +46,4 @@ int	main(void)
 	ft_putnbr(-83648);
 	write(1, "\n", 1);
 	return (0);
-}
+}*/
